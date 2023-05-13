@@ -30,7 +30,7 @@ text-decoration: none;
 /*----------LOGO-----------*/
 
 .header-logo {
-font-family: var(--secondary-font) 
+font-family: 'Raleway', sans-serif; 
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -43,7 +43,7 @@ color: var(--third-text-color);
 }
 
 .studio-logo-header {
-font-family: var(--secondary-font);
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
