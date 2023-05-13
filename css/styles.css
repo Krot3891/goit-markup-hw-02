@@ -4,7 +4,10 @@
 --primary-text-color: #2E2F42;
 --secondary-text-color: #434455;
 --white-color: #ffffff;
---third-text-color:;
+--third-text-color: #4D5AE5;
+--primary-background-color: #F4F4FD;
+--secondary-background-color: #F4F4FD;
+--secondary-color: #F4F4FD;
 --accent-color: #404BBF;   
 }
 
@@ -35,7 +38,12 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--third-text-color);
+}
+
+/*----------HEADER-----------*/
+
+.header-link {;
 }
 .studio-logo-header {
 font-family: var(--secondary-font);
@@ -104,12 +112,12 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: var(--white-color);
-background-color: #4D5AE5;
+background-color: var(--secondary-background-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-color: #404BBF;
+color: var(--accent-color);
 }
 
 
@@ -145,7 +153,7 @@ color: var(--primary-text-color);
 
 /*----------SECTION TEAM-----------*/
 .team {
-    background-color: #F4F4FD;
+background-color: var(--primary-background-color);
 }
 
 .team-title {
@@ -192,7 +200,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--third-text-color);
 }
 
 .studio-logo-footer {
@@ -205,7 +213,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--secondary-color);
 }
 
 .subtext {
@@ -213,5 +221,41 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--secondary-color);
+}
+
+/*================PORTFOLIO==============*/
+.portfolio-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--third-text-color);
+background-color: var(--primary-background-color);
+cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.portfolio-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
 }
