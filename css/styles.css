@@ -14,8 +14,8 @@
 /*----------FONT STYLE-----------*/
 
 body {
-    
-    font-family: var(--primary-font)
+background-color: var(--white-color);
+font-family: var(--primary-font)
 }
 
 .list {
@@ -33,7 +33,7 @@ font-family: var(--secondary-font)
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -46,7 +46,7 @@ font-family: var(--secondary-font);
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -81,7 +81,8 @@ color: var(--secondary-text-color);
 
 .header-address-link:hover,
 .header-address-link:focus {
-color: var(--accent-color);
+color: var(--white-color);
+background-color: var(--accent-color);
 }
 
 /*----------HERO-----------*/
@@ -109,6 +110,7 @@ align-items: center;
 letter-spacing: 0.04em;
 color: var(--third-text-color);
 background-color: var(--secondary-background-color);
+cursor: pointer;
 }
 
 .hero-btn:hover,
