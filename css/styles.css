@@ -14,7 +14,7 @@
 /*----------FONT STYLE-----------*/
 
 body {
-    background-color: var(--secondary-text-color);
+    background-color: var(--white-color);
     font-family: var(--primary-font)
 }
 
@@ -41,10 +41,6 @@ text-transform: uppercase;
 color: var(--third-text-color);
 }
 
-/*----------HEADER-----------*/
-
-.header-link {;
-}
 .studio-logo-header {
 font-family: var(--secondary-font);
 font-style: normal;
@@ -111,7 +107,7 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: var(--white-color);
+color: var(--third-text-color);
 background-color: var(--secondary-background-color);
 }
 
