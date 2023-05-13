@@ -24,7 +24,7 @@ list-style: none;
 }
 
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 /*----------LOGO-----------*/
@@ -227,6 +227,7 @@ color: var(--secondary-color);
 
 /*================PORTFOLIO==============*/
 .portfolio-button {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
