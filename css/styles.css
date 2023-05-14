@@ -6,8 +6,6 @@
 --white-color: #ffffff;
 --third-text-color: #4D5AE5;
 --primary-background-color: #F4F4FD;
---secondary-background-color: #F4F4FD;
---secondary-color: #F4F4FD;
 --accent-color: #404BBF;   
 }
 
@@ -152,7 +150,7 @@ color: var(--primary-text-color);
 
 /*----------SECTION TEAM-----------*/
 .section-team {
-background-color: var(--white-color);
+background-color: var(--primary-background-color);
 }
 
 .team-title {
@@ -213,7 +211,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--secondary-color);
+color: var(--primary-background-color);
 }
 
 .subtext {
@@ -221,7 +219,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--secondary-color);
+color: var(--primary-background-color);
 }
 
 /*================PORTFOLIO==============*/
