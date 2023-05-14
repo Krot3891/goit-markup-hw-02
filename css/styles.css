@@ -3,7 +3,7 @@
 --secondary-font: 'Raleway', sans-serif;
 --primary-text-color: #2E2F42;
 --secondary-text-color: #434455;
---white-color: #ffffff;
+--white-color: #FFFFFF;
 --third-text-color: #4D5AE5;
 --primary-background-color: #F4F4FD;
 --accent-color: #404BBF;   
@@ -150,7 +150,7 @@ color: var(--primary-text-color);
 
 /*----------SECTION TEAM-----------*/
 .section-team {
-background-color: var(--primary-background-color);
+background-color: var(--white-color);
 }
 
 .team-title {
